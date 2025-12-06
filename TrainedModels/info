@@ -1,0 +1,2 @@
+This directory contains the trained Reinforcement Learning models used in this project.  
+These models can be loaded directly to reproduce results, run evaluations, or continue training from a checkpoint.
