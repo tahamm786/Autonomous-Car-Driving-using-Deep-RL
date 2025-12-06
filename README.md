@@ -21,12 +21,12 @@ Before moving to a vision-based DRL setup, foundational RL algorithms were imple
 This included value iteration, policy iteration, Monte Carlo methods, Temporal-Difference learning (SARSA, Q-learning), and exploration strategies.  
 These were implemented in environments like FrozenLake and MiniGrid to build intuition about agent learning and policy behavior.
 
-![Classical RL tasks](https://rawgithubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/frozen_lake.gif)
+![Classical RL tasks](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/frozen_lake.gif)
 
 ---
 
 ## 2. Neural Network and Deep Learning Foundations  
-To prepare for working with image-based inputs, neural networks were implemented from scratch using NumPy (forward and backward propagation), followed by CNNs and deep learning models in TensorFLow.
+To prepare for working with image-based inputs, neural networks were implemented from scratch using NumPy (forward and backward propagation), followed by CNNs and deep learning models in TensorFlow.  
 This provided the necessary understanding of spatial feature extraction, which is essential for lane detection and driving behavior.
 
 ---
@@ -35,7 +35,7 @@ This provided the necessary understanding of spatial feature extraction, which i
 After developing the basics, policy-gradient algorithms and Actor-Critic methods were studied.  
 This formed the theoretical backbone for implementing PPO and understanding why it is well suited for continuous control.
 
-![Policy Gradient diagram](https://rawgithubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/policy_gradient.jpg)
+![Policy Gradient diagram](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/policy_gradient.jpg)
 
 ---
 
@@ -48,7 +48,7 @@ The final model integrates three core components:
 
 The agent learns to control steering and throttle using feedback from a reward function designed to encourage stable, centered driving.
 
-![Driving pipeline diagram](https://rawgithubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/driving_pipeline.png)
+![Driving pipeline diagram](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/driving_pipeline.png)
 
 ---
 
@@ -66,7 +66,7 @@ The agent learns to control steering and throttle using feedback from a reward f
 - Contains road edges, curvature, and background context  
 - Used as direct input to the CNN network  
 
-![CAMERA FRAME](https://rawgithubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/camera_view.png)
+![CAMERA FRAME](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/camera_view.png)
 
 ### Reward Function  
 The reward encourages smooth and safe driving:
@@ -77,7 +77,7 @@ The reward encourages smooth and safe driving:
 
 This motivates the agent to balance both lateral stability and speed.
 
-![Reward function chart](https://rawgithubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/reward_fn.png)
+![Reward function chart](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/reward_fn.png)
 
 ---
 
@@ -140,7 +140,7 @@ This combination allows the agent to learn consistent and robust driving behavio
 8. PPO performs policy and value updates  
 9. Loop continues across many timesteps  
 
-![ALGO PIPELINE](https://rawusergithubcontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/algo_pipeline.png)
+![ALGO PIPELINE](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/algo_pipeline.png)
 
 ---
 
@@ -151,15 +151,14 @@ This combination allows the agent to learn consistent and robust driving behavio
 - Mid training: better lane centering, improved curvature handling  
 - Final stages: smooth lane-following with stable throttle control  
 
-[INSERT GIF: Training at 7000 steps]  
-![Generated Road Final](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/DonkeyCar2.gif)
+![Generated Road Final](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/DonkeyCar2.gif)
 
 ### Mountain Track Generalization  
 A more challenging test track with sharp turns and elevation.  
 The trained agent adapts and navigates reliably after extended training.
 
 ![Mountain Track Demo](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/Mountain_Track.gif)
-![Mountain Track Graph](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/mountain_track_rewards.png)
+![Mountain Track Graph](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/mountain_track_rewards.png)
 
 ---
 
@@ -178,5 +177,5 @@ The trained agent successfully:
 # Trained Models and Video Results
 
 https://drive.google.com/drive/folders/1XSjvIME7LpQvYnJbaveoxq4y3vlnoDG8?usp=drive_link
----
 
+---
