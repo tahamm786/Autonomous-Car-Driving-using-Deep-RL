@@ -1,3 +1,6 @@
+[![Mountain Track Preview](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/Mountain_Track.png)](https://github.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/Mountain_Track.mp4)
+
+
 # 🚗 Autonomous Driving with Deep Reinforcement Learning
 
 This project focuses on training an autonomous vehicle to navigate a simulated track by following lanes using **Deep Reinforcement Learning (DRL)**.  
