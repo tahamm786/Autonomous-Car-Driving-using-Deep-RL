@@ -1,7 +1,7 @@
 [![Mountain Track Preview](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/Mountain_Track.png)](https://github.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/Video%20Results)
 
 
-# 🚗 Autonomous Driving with Deep Reinforcement Learning
+#  Autonomous Driving with Deep Reinforcement Learning
 
 This project focuses on training an autonomous vehicle to navigate a simulated track by following lanes using **Deep Reinforcement Learning (DRL)**.  
 The agent learns continuous control over steering and throttle using **visual observations** from the DonkeyCar simulator, trained with **PPO (Stable-Baselines3)**.
@@ -10,7 +10,7 @@ As part of the preparation for this project, I implemented several foundational 
 
 ---
 
-## 🔧 Environment: gym-donkeycar
+## Environment: gym-donkeycar
 
 **Actions (Continuous):**
 - **Steering:** −5 to +5  
@@ -30,7 +30,7 @@ As part of the preparation for this project, I implemented several foundational 
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - Applied DRL to a real-time, continuous-control driving task  
 - Worked with visual observations and CNN-based feature extraction (through DonkeyCar + PPO architecture)  
@@ -40,7 +40,7 @@ As part of the preparation for this project, I implemented several foundational 
 
 ---
 
-## 🏁 Project Goal
+##  Project Goal
 
 Build a self-driving RL agent that can:
 - Stay centered in the lane  
