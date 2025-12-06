@@ -1,4 +1,4 @@
-[![Mountain Track Preview](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/Mountain_Track.png)](https://github.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/Mountain_Track.mp4)
+[![Mountain Track Preview](https://raw.githubusercontent.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/main/Media/Mountain_Track.png)](https://github.com/tahamm786/Autonomous-Car-Driving-using-Deep-RL/blob/main/Media/Video%20Results))
 
 
 # 🚗 Autonomous Driving with Deep Reinforcement Learning
