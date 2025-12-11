@@ -179,3 +179,15 @@ The trained agent successfully:
 https://drive.google.com/drive/folders/1XSjvIME7LpQvYnJbaveoxq4y3vlnoDG8?usp=drive_link
 
 ---
+
+# Real-World Use Cases
+
+- **Autonomous Vehicles:** Lane-following, speed control, and safe navigation using camera-based policies.  
+- **Robotics:** Path planning and real-time control for mobile robots in warehouses and factories.  
+- **Smart Transportation:** Traffic optimization, adaptive cruise systems, and intelligent lane assistance.  
+- **Sim-to-Real Transfer:** Safe training in simulators before deploying in physical environments.  
+- **Drones:** Stable autonomous flight, navigation, and environment-aware control.  
+- **ADAS Systems:** Vision-based alerts, steering assistance, and driver-support features.  
+- **Research & Education:** Benchmarking RL algorithms and studying vision-based continuous control.
+
+---
